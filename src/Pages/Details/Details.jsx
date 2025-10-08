@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useLoaderData, useLocation, useParams } from "react-router";
 import download from "../../assets/assets/icon-downloads.png";
 import rating from "../../assets/assets/icon-ratings.png";
 import review from "../../assets/assets/icon-review.png";
 import Rechartes from "../../Components/Rechartes/Rechartes";
+import { AppSaveContext } from "../../AppContext/AppContext";
 
 const Details = () => {
+  const [install, setInstall, handleInstallBtn] = useContext(AppSaveContext);
   const { id } = useParams();
   const { data } = useLoaderData();
   const isData = data.find((ele) => Number(ele.id) === Number(id));
@@ -54,8 +56,17 @@ const Details = () => {
               </div>
             </div>
 
-            <button className="bg-[#00D390] p-2 mt-8 rounded-md text-white font-bold">
-              Install Now <span>({size} MB)</span>
+            <button
+              onClick={() => handleInstallBtn(isData.id, title)}
+              className="bg-[#00D390] p-2 mt-8 rounded-md text-white font-bold cursor-pointer"
+            >
+              {install.includes(isData.id) ? (
+                <p>Installed</p>
+              ) : (
+                <p>
+                  Install Now <span>({size} MB)</span>
+                </p>
+              )}
             </button>
           </div>
         </div>
