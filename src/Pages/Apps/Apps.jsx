@@ -1,0 +1,83 @@
+import React, { Suspense, useEffect, useState } from "react";
+import { CiSearch } from "react-icons/ci";
+
+import useApps from "../../Hooks/useApps";
+import TrendingApps from "../../Components/TrendingApps/TrendingApps";
+import Loading from "../../Components/Loading/Loading";
+
+const Apps = () => {
+  const { apps, loading, error } = useApps();
+  console.log(loading);
+
+  const [search, setSearch] = useState("");
+  const str = search.trim().toLowerCase();
+
+  const datas = str
+    ? apps.filter((ele) => ele.title.toLowerCase().includes(str))
+    : apps;
+
+  return (
+    <div className="mx-15">
+      {loading ? (
+        <Loading />
+      ) : (
+        <div>
+          <div className="mt-20 mb-10">
+            <h2 className="text-[48px] text-center font-bold">
+              Our All Applications
+            </h2>
+            <p className="text-center text-[#627382]">
+              Explore All Apps on the Market developed by us. We code for
+              Millions
+            </p>
+          </div>
+          <div className="flex  justify-between items-center">
+            <h2 className="text-[24px]  font-bold">(120) Apps Found</h2>
+            <div className="relative w-full max-w-sm">
+              <CiSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-xl" />
+
+              <input
+                type="text"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="Search Apps"
+                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#632EE3]"
+              />
+            </div>
+          </div>
+          <div className="my-12">
+            <TrendingApps datas={datas} />
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Apps;
+
+// <div className="mt-20 mb-10">
+//   <h2 className="text-[48px] text-center font-bold">
+//     Our All Applications
+//   </h2>
+//   <p className="text-center text-[#627382]">
+//     Explore All Apps on the Market developed by us. We code for Millions
+//   </p>
+// </div>
+// <div className="flex  justify-between items-center">
+//   <h2 className="text-[24px]  font-bold">(120) Apps Found</h2>
+//   <div className="relative w-full max-w-sm">
+//     <CiSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-xl" />
+
+//     <input
+//       type="text"
+//       value={search}
+//       onChange={(e) => setSearch(e.target.value)}
+//       placeholder="Search Apps"
+//       className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#632EE3]"
+//     />
+//   </div>
+// </div>
+// <div className="my-12">
+//   <TrendingApps datas={datas} />
+// </div>

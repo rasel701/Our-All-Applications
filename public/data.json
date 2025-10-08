@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://pixflow.net/wp-content/uploads/2024/11/07-1.jpg",
+    "title": "PixFlow",
+    "companyName": "PixelSoft Ltd",
+    "id": 1,
+    "description": "Professional photo and video editing app with AI-powered tools.",
+    "size": 85,
+    "reviews": 2450,
+    "ratingAvg": 4.5,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/2024-spotify-brand-assets-media-kit.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 2,
+    "description": "Stream and download millions of songs, create playlists, and enjoy ad-free listening.",
+    "size": 70,
+    "reviews": 5600,
+    "ratingAvg": 4.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 420 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3880 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/template/20190718/ourmid/pngtree-instagram-logo-with-name-png-image_238618.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 3,
+    "description": "Share photos and videos, follow friends, and explore trending content worldwide.",
+    "size": 95,
+    "reviews": 8400,
+    "ratingAvg": 4.8,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 4750 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGpJ8UFG03-e_wuIAfqnNlnVzUDZ-4Uxxwiw&s",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 4,
+    "description": "Create stunning designs, presentations, and social media content with ease.",
+    "size": 110,
+    "reviews": 5200,
+    "ratingAvg": 4.6,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2590 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-aSbL2qfifQ40OsdS5tKbZmqc8qOVbUhSg&s",
+    "title": "Notion",
+    "companyName": "Notion Labs Inc.",
+    "id": 5,
+    "description": "All-in-one workspace for notes, tasks, databases, and project management.",
+    "size": 60,
+    "reviews": 3100,
+    "ratingAvg": 4.7,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 2050 }
+    ]
+  },
+  {
+    "image": "https://i.pinimg.com/736x/65/25/ea/6525ea3430a2145e472ce030dd98bdcb.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 6,
+    "description": "Send photos and videos to friends that disappear automatically, with fun filters.",
+    "size": 80,
+    "reviews": 4000,
+    "ratingAvg": 4.5,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2400 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNMFmJiOYU6gks1J71TAidiSlIlIig7cr0tg&s",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 7,
+    "description": "Learn new languages interactively with fun exercises and challenges.",
+    "size": 65,
+    "reviews": 3300,
+    "ratingAvg": 4.6,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 1740 }
+    ]
+  },
+  {
+    "image": "https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/2019-01_BrandRefresh_slack-brand-refresh_unfurl-1.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 8,
+    "description": "Collaborate with your team, share files, and communicate seamlessly.",
+    "size": 75,
+    "reviews": 2900,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1650 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/zoom-video-communications-zoom-logo-application-video-communications-with-cloud-platform_944081-182.jpg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 9,
+    "description": "Host video calls and meetings with high quality audio and video.",
+    "size": 95,
+    "reviews": 5000,
+    "ratingAvg": 4.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2380 }
+    ]
+  },
+  {
+    "image": "https://logos-world.net/wp-content/uploads/2021/03/Evernote-Emblem.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 10,
+    "description": "Note-taking app to organize ideas, lists, and tasks efficiently.",
+    "size": 70,
+    "reviews": 2700,
+    "ratingAvg": 4.6,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/search?q=telegram+logo&oq=Telegram&gs_lcrp=EgZjaHJvbWUqDAgBEAAYQxiABBiKBTIPCAAQABhDGLEDGIAEGIoFMgwIARAAGEMYgAQYigUyEggCEAAYQxiDARixAxiABBiKBTIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyCggFEAAYsQMYgAQyCggGEAAYsQMYgAQyCggHEAAYsQMYgAQyBwgIEAAYjwIyBwgJEAAYjwLSAQgxMjk5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=Gy3LsxdmEhzU5M&vssid=_2E_laMCeCp254-EPsp-UoQc_92",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 11,
+    "description": "Secure messaging app with fast cloud-based features and group chats.",
+    "size": 80,
+    "reviews": 3500,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnqod6bsBoA53JgH2cICGKTULHP3pNPRQklQ&s",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 12,
+    "description": "Discover and save creative ideas with images and videos.",
+    "size": 75,
+    "reviews": 2900,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1680 }
+    ]
+  },
+  {
+    "image": "https://www.shutterstock.com/image-vector/instagram-icon-facebook-twitter-logo-260nw-2378791129.jpg",
+    "title": "Twitter",
+    "companyName": "Twitter Inc.",
+    "id": 13,
+    "description": "Post tweets, follow friends, and discover trending topics worldwide.",
+    "size": 85,
+    "reviews": 4000,
+    "ratingAvg": 4.6,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2580 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjSjMLEGiQxl8qYMD6cnxk2oL7GMPXcLyIA&s",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 14,
+    "description": "Connect with friends, share updates, photos, and videos.",
+    "size": 95,
+    "reviews": 4800,
+    "ratingAvg": 4.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 2210 }
+    ]
+  },
+  {
+    "image": "https://www.logo.wine/a/logo/Reddit/Reddit-Vertical-Color-Logo.wine.svg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 15,
+    "description": "Community platform to discuss, share news, and vote on content.",
+    "size": 70,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1870 }
+    ]
+  },
+  {
+    "image": "https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/2019-01_BrandRefresh_slack-brand-refresh_unfurl-1.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 16,
+    "description": "Collaborate with your team, share files, and communicate seamlessly.",
+    "size": 75,
+    "reviews": 2900,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1650 }
+    ]
+  },
+  {
+    "image": "https://i.pinimg.com/736x/97/d4/5b/97d45b8ca0ede1712b737bd1d00226f9.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 17,
+    "description": "Create and watch short, engaging videos and trends.",
+    "size": 80,
+    "reviews": 5200,
+    "ratingAvg": 4.8,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2590 }
+    ]
+  },
+  {
+    "image": "https://t3.ftcdn.net/jpg/06/34/31/96/360_F_634319630_txtgmPLEEQ8o4zaxec2WKrLWUBqdBBQn.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 18,
+    "description": "Watch and upload videos, subscribe to channels, and explore content worldwide.",
+    "size": 120,
+    "reviews": 8500,
+    "ratingAvg": 4.9,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 520 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 6130 }
+    ]
+  },
+  {
+    "image": "https://logos-world.net/wp-content/uploads/2021/04/Microsoft-Teams-Symbol.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 19,
+    "description": "Host online meetings, collaborate with teams, and manage projects.",
+    "size": 110,
+    "reviews": 4600,
+    "ratingAvg": 4.7,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "image": "https://cdn.logojoy.com/wp-content/uploads/20240607111107/LinkedIn-logo-2003-600x319.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 20,
+    "description": "Professional networking platform to connect, share updates, and find jobs.",
+    "size": 85,
+    "reviews": 3700,
+    "ratingAvg": 4.6,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 2380 }
+    ]
+  }
+]
