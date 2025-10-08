@@ -7,7 +7,6 @@ import Loading from "../../Components/Loading/Loading";
 
 const Apps = () => {
   const { apps, loading, error } = useApps();
-  console.log(loading);
 
   const [search, setSearch] = useState("");
   const str = search.trim().toLowerCase();
@@ -15,6 +14,12 @@ const Apps = () => {
   const datas = str
     ? apps.filter((ele) => ele.title.toLowerCase().includes(str))
     : apps;
+
+  console.log(datas);
+
+  const handleChange = (e) => {
+    setSearch(e.target.value);
+  };
 
   return (
     <div className="mx-15">
@@ -32,21 +37,31 @@ const Apps = () => {
             </p>
           </div>
           <div className="flex  justify-between items-center">
-            <h2 className="text-[24px]  font-bold">(120) Apps Found</h2>
+            <h2 className="text-[24px]  font-bold">
+              ({apps.length}) Apps Found
+            </h2>
             <div className="relative w-full max-w-sm">
               <CiSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-xl" />
 
               <input
                 type="text"
                 value={search}
-                onChange={(e) => setSearch(e.target.value)}
+                onChange={handleChange}
                 placeholder="Search Apps"
                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#632EE3]"
               />
             </div>
           </div>
           <div className="my-12">
-            <TrendingApps datas={datas} />
+            {datas.length !== 0 ? (
+              <TrendingApps datas={datas} />
+            ) : (
+              <div className="text-center">
+                <h2 className="text-4xl font-bold text-gray-500">
+                  No Apps Founds
+                </h2>
+              </div>
+            )}
           </div>
         </div>
       )}
