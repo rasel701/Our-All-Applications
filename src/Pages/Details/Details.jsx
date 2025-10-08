@@ -3,16 +3,26 @@ import { useLoaderData, useLocation, useParams } from "react-router";
 import download from "../../assets/assets/icon-downloads.png";
 import rating from "../../assets/assets/icon-ratings.png";
 import review from "../../assets/assets/icon-review.png";
+import Rechartes from "../../Components/Rechartes/Rechartes";
 
 const Details = () => {
   const { id } = useParams();
   const { data } = useLoaderData();
   const isData = data.find((ele) => Number(ele.id) === Number(id));
-  const { title, image, downloads, ratingAvg, companyName, reviews, size } =
-    isData;
+  const {
+    title,
+    image,
+    downloads,
+    ratingAvg,
+    companyName,
+    reviews,
+    size,
+    ratings,
+    description,
+  } = isData;
 
   return (
-    <div className="max-w-[90%] mx-auto my-20 pb-9">
+    <div className=" my-20 pb-9">
       <div>
         <div className="flex gap-9  ">
           <div className="bg-white p-3  w-[400px] h-[290px]">
@@ -50,6 +60,16 @@ const Details = () => {
           </div>
         </div>
         <div className="border-t-1 mt-8"></div>
+      </div>
+
+      <div className="">
+        <h2 className="mt-8 mx-5 text-lg font-bold">Ratings</h2>
+        <Rechartes rating={ratings} />
+      </div>
+      <div className="border-t-1 text-gray-400 mt-5"></div>
+      <div>
+        <h2 className="text-2xl font-semibold mt-9 mb-3">Description</h2>
+        <p className="text-[19px] text-gray-500">{description}</p>
       </div>
     </div>
   );

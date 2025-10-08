@@ -10,6 +10,7 @@ const Apps = () => {
 
   const [search, setSearch] = useState("");
   const str = search.trim().toLowerCase();
+  const [searchLoading, setSearchLoading] = useState(false);
 
   const datas = str
     ? apps.filter((ele) => ele.title.toLowerCase().includes(str))
@@ -19,6 +20,11 @@ const Apps = () => {
 
   const handleChange = (e) => {
     setSearch(e.target.value);
+    setSearchLoading(true);
+
+    setTimeout(() => {
+      setSearchLoading(false);
+    }, 400);
   };
 
   return (
@@ -54,7 +60,11 @@ const Apps = () => {
           </div>
           <div className="my-12">
             {datas.length !== 0 ? (
-              <TrendingApps datas={datas} />
+              searchLoading ? (
+                <Loading />
+              ) : (
+                <TrendingApps datas={datas} />
+              )
             ) : (
               <div className="text-center">
                 <h2 className="text-4xl font-bold text-gray-500">
