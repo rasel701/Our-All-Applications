@@ -40,7 +40,9 @@ const Installation = () => {
   return (
     <div className="mt-20">
       {loading ? (
-        <Loading />
+        <div className="my-30 max-h-screen">
+          <Loading />
+        </div>
       ) : (
         <div>
           <div>

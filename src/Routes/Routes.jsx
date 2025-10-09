@@ -6,16 +6,17 @@ import Apps from "../Pages/Apps/Apps";
 import Details from "../Pages/Details/Details";
 import Installation from "../Pages/Installation/Installation";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
+import Loading from "../Components/Loading/Loading";
 
 export const router = createBrowserRouter([
   {
     path: "",
     Component: Root,
+    hydrateFallbackElement: <Loading />,
     children: [
       {
         index: true,
         Component: Home,
-        loader: async () => await axios("/data.json"),
       },
       {
         path: "/apps",

@@ -10,11 +10,11 @@
     "ratingAvg": 4.5,
     "downloads": 1200000,
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 350 },
+      { "name": "5 star", "count": 1200 },
       { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1200 }
+      { "name": "3 star", "count": 350 },
+      { "name": "2 star", "count": 200 },
+      { "name": "1 star", "count": 100 }
     ]
   },
   {
@@ -28,11 +28,11 @@
     "ratingAvg": 4.7,
     "downloads": 3000000,
     "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 220 },
-      { "name": "3 star", "count": 420 },
+      { "name": "5 star", "count": 3880 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 3880 }
+      { "name": "3 star", "count": 420 },
+      { "name": "2 star", "count": 220 },
+      { "name": "1 star", "count": 180 }
     ]
   },
   {
@@ -46,11 +46,11 @@
     "ratingAvg": 4.8,
     "downloads": 4000000,
     "ratings": [
-      { "name": "1 star", "count": 150 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 400 },
+      { "name": "5 star", "count": 4750 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 4750 }
+      { "name": "3 star", "count": 400 },
+      { "name": "2 star", "count": 200 },
+      { "name": "1 star", "count": 150 }
     ]
   },
   {
@@ -64,11 +64,11 @@
     "ratingAvg": 4.6,
     "downloads": 2800000,
     "ratings": [
-      { "name": "1 star", "count": 130 },
-      { "name": "2 star", "count": 180 },
-      { "name": "3 star", "count": 400 },
+      { "name": "5 star", "count": 2590 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 2590 }
+      { "name": "3 star", "count": 400 },
+      { "name": "2 star", "count": 180 },
+      { "name": "1 star", "count": 130 }
     ]
   },
   {
@@ -82,11 +82,11 @@
     "ratingAvg": 4.7,
     "downloads": 1900000,
     "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 250 },
+      { "name": "5 star", "count": 2050 },
       { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 2050 }
+      { "name": "3 star", "count": 250 },
+      { "name": "2 star", "count": 120 },
+      { "name": "1 star", "count": 80 }
     ]
   },
   {
@@ -100,11 +100,11 @@
     "ratingAvg": 4.5,
     "downloads": 2500000,
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 180 },
-      { "name": "3 star", "count": 400 },
+      { "name": "5 star", "count": 2400 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 2400 }
+      { "name": "3 star", "count": 400 },
+      { "name": "2 star", "count": 180 },
+      { "name": "1 star", "count": 120 }
     ]
   },
   {
@@ -118,11 +118,11 @@
     "ratingAvg": 4.6,
     "downloads": 2000000,
     "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 280 },
+      { "name": "5 star", "count": 1740 },
       { "name": "4 star", "count": 750 },
-      { "name": "5 star", "count": 1740 }
+      { "name": "3 star", "count": 280 },
+      { "name": "2 star", "count": 150 },
+      { "name": "1 star", "count": 90 }
     ]
   },
   {
@@ -136,11 +136,11 @@
     "ratingAvg": 4.5,
     "downloads": 1500000,
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 300 },
+      { "name": "5 star", "count": 1650 },
       { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1650 }
+      { "name": "3 star", "count": 300 },
+      { "name": "2 star", "count": 150 },
+      { "name": "1 star", "count": 100 }
     ]
   },
   {
@@ -154,11 +154,11 @@
     "ratingAvg": 4.7,
     "downloads": 3000000,
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 400 },
+      { "name": "5 star", "count": 2380 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 2380 }
+      { "name": "3 star", "count": 400 },
+      { "name": "2 star", "count": 200 },
+      { "name": "1 star", "count": 120 }
     ]
   },
   {
@@ -172,15 +172,15 @@
     "ratingAvg": 4.6,
     "downloads": 1800000,
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 300 },
+      { "name": "5 star", "count": 1450 },
       { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1450 }
+      { "name": "3 star", "count": 300 },
+      { "name": "2 star", "count": 150 },
+      { "name": "1 star", "count": 100 }
     ]
   },
   {
-    "image": "https://www.google.com/search?q=telegram+logo&oq=Telegram&gs_lcrp=EgZjaHJvbWUqDAgBEAAYQxiABBiKBTIPCAAQABhDGLEDGIAEGIoFMgwIARAAGEMYgAQYigUyEggCEAAYQxiDARixAxiABBiKBTIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyCggFEAAYsQMYgAQyCggGEAAYsQMYgAQyCggHEAAYsQMYgAQyBwgIEAAYjwIyBwgJEAAYjwLSAQgxMjk5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=Gy3LsxdmEhzU5M&vssid=_2E_laMCeCp254-EPsp-UoQc_92",
+    "image": "https://images.icon-icons.com/2699/PNG/512/telegram_logo_icon_168691.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 11,
@@ -190,119 +190,119 @@
     "ratingAvg": 4.7,
     "downloads": 2000000,
     "ratings": [
-      { "name": "1 star", "count": 110 },
-      { "name": "2 star", "count": 140 },
-      { "name": "3 star", "count": 300 },
+      { "name": "5 star", "count": 2200 },
       { "name": "4 star", "count": 750 },
-      { "name": "5 star", "count": 2200 }
+      { "name": "3 star", "count": 300 },
+      { "name": "2 star", "count": 140 },
+      { "name": "1 star", "count": 110 }
     ]
   },
   {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnqod6bsBoA53JgH2cICGKTULHP3pNPRQklQ&s",
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-pinterest-226576.png",
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "id": 12,
-    "description": "Pinterest is a unique visual discovery engine where users can **find, save, and organize creative ideas** using images and videos, known as 'Pins'. It's an excellent resource for inspiration across countless categories, including recipes, home decor, fashion, and DIY projects. Users create customized boards to curate their interests and plan future endeavors.",
-    "size": 75,
-    "reviews": 2900,
-    "ratingAvg": 4.5,
-    "downloads": 1500000,
-    "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 130 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1680 }
-    ]
-  },
-  {
-    "image": "https://www.shutterstock.com/image-vector/instagram-icon-facebook-twitter-logo-260nw-2378791129.jpg",
-    "title": "Twitter",
-    "companyName": "Twitter Inc.",
-    "id": 13,
-    "description": "Twitter is a real-time social networking service where users can **post short messages, or 'tweets', follow friends, public figures, and organizations, and rapidly discover trending topics worldwide**. It serves as a vital global platform for news consumption, public conversation, and immediate communication on events as they unfold, connecting diverse voices across the globe.",
-    "size": 85,
-    "reviews": 4000,
-    "ratingAvg": 4.6,
-    "downloads": 2300000,
-    "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 350 },
-      { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 2580 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjSjMLEGiQxl8qYMD6cnxk2oL7GMPXcLyIA&s",
-    "title": "Facebook",
-    "companyName": "Meta Platforms",
-    "id": 14,
-    "description": "Facebook is the world's largest social network, designed to help you **connect with friends, family, and people you know**. Users can **share life updates, upload photos, and post videos**, join groups based on common interests, and use its robust messenger feature. It remains a primary platform for personal networking, community building, and engaging with diverse content.",
-    "size": 95,
-    "reviews": 4800,
+    "description": "Pinterest is a **visual discovery platform** for finding ideas for recipes, fashion, home décor, travel, and more. Users can save inspirations (Pins) to their boards and explore new content from around the world. It’s a creativity hub for planners, designers, and DIY enthusiasts.",
+    "size": 90,
+    "reviews": 4100,
     "ratingAvg": 4.7,
-    "downloads": 3000000,
+    "downloads": 2400000,
     "ratings": [
-      { "name": "1 star", "count": 140 },
-      { "name": "2 star", "count": 200 },
+      { "name": "5 star", "count": 2500 },
+      { "name": "4 star", "count": 900 },
       { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 950 },
-      { "name": "5 star", "count": 2210 }
+      { "name": "2 star", "count": 180 },
+      { "name": "1 star", "count": 120 }
     ]
   },
   {
-    "image": "https://www.logo.wine/a/logo/Reddit/Reddit-Vertical-Color-Logo.wine.svg",
-    "title": "Reddit",
-    "companyName": "Reddit Inc.",
-    "id": 15,
-    "description": "Reddit is a massive network of communities, or 'subreddits,' where users can **discuss, share news, and vote on content** (upvote or downvote) to determine its visibility. It’s an open platform covering virtually every topic imaginable, from niche hobbies to global news, fostering deep community interaction and acting as a dynamic hub for diverse content aggregation.",
-    "size": 70,
-    "reviews": 3100,
-    "ratingAvg": 4.6,
-    "downloads": 1700000,
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 130 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1870 }
-    ]
-  },
-  {
-    "image": "https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/2019-01_BrandRefresh_slack-brand-refresh_unfurl-1.png",
-    "title": "Slack",
-    "companyName": "Slack Technologies",
-    "id": 16,
-    "description": "Slack is a powerful platform designed for **team collaboration and communication**. It organizes conversations into channels, making it easy to share files, integrate with other business tools, and communicate seamlessly in real-time. It dramatically reduces email clutter and centralizes team discussions, enabling faster decision-making and improved project coordination.",
-    "size": 75,
-    "reviews": 2900,
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-dropbox-2749297-2285006.png",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "id": 13,
+    "description": "Dropbox is a **cloud storage and file-sharing service** that enables users to store, sync, and collaborate on documents across multiple devices. It ensures secure backups and easy access to your data anywhere, with seamless integration with tools like Microsoft Office and Google Workspace.",
+    "size": 85,
+    "reviews": 3200,
     "ratingAvg": 4.5,
-    "downloads": 1500000,
+    "downloads": 1900000,
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 300 },
+      { "name": "5 star", "count": 1750 },
       { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1650 }
+      { "name": "3 star", "count": 350 },
+      { "name": "2 star", "count": 200 },
+      { "name": "1 star", "count": 100 }
     ]
   },
   {
     "image": "https://i.pinimg.com/736x/97/d4/5b/97d45b8ca0ede1712b737bd1d00226f9.jpg",
     "title": "TikTok",
     "companyName": "ByteDance Ltd.",
-    "id": 17,
+    "id": 14,
     "description": "TikTok is the leading platform for creating and viewing **short, highly engaging videos and discovering viral trends**. Its sophisticated algorithm serves up an endless, personalized feed of content, allowing users to express themselves through music, dance, comedy, and more. It has become a global phenomenon for its dynamic format and cultural influence.",
     "size": 80,
     "reviews": 5200,
     "ratingAvg": 4.8,
     "downloads": 3200000,
     "ratings": [
-      { "name": "1 star", "count": 160 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 350 },
+      { "name": "5 star", "count": 2590 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 2590 }
+      { "name": "3 star", "count": 350 },
+      { "name": "2 star", "count": 200 },
+      { "name": "1 star", "count": 160 }
+    ]
+  },
+  {
+    "image": "https://www.shutterstock.com/image-vector/instagram-icon-facebook-twitter-logo-260nw-2378791129.jpg",
+    "title": "Twitter",
+    "companyName": "Twitter Inc.",
+    "id": 15,
+    "description": "Twitter is a real-time social networking service where users can **post short messages, or 'tweets', follow friends, public figures, and organizations, and rapidly discover trending topics worldwide**. It serves as a vital global platform for news consumption, public conversation, and immediate communication on events as they unfold, connecting diverse voices across the globe.",
+    "size": 85,
+    "reviews": 4000,
+    "ratingAvg": 4.6,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "5 star", "count": 2580 },
+      { "name": "4 star", "count": 800 },
+      { "name": "3 star", "count": 350 },
+      { "name": "2 star", "count": 150 },
+      { "name": "1 star", "count": 120 }
+    ]
+  },
+  {
+    "image": "https://www.logo.wine/a/logo/Reddit/Reddit-Vertical-Color-Logo.wine.svg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 16,
+    "description": "Reddit is a massive network of communities, or 'subreddits,' where users can **discuss, share news, and vote on content** (upvote or downvote) to determine its visibility. It’s an open platform covering virtually every topic imaginable, from niche hobbies to global news, fostering deep community interaction and acting as a dynamic hub for diverse content aggregation.",
+    "size": 70,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "5 star", "count": 1870 },
+      { "name": "4 star", "count": 700 },
+      { "name": "3 star", "count": 300 },
+      { "name": "2 star", "count": 130 },
+      { "name": "1 star", "count": 100 }
+    ]
+  },
+  {
+    "image": "https://cdn.logojoy.com/wp-content/uploads/20240607111107/LinkedIn-logo-2003-600x319.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 17,
+    "description": "LinkedIn is the world's leading **professional networking platform**, focusing on career development and business connections. It allows users to **connect with colleagues, share professional updates, follow industry news, and find job opportunities**. It's an indispensable tool for building a professional brand, expanding your network, and advancing your career goals globally.",
+    "size": 85,
+    "reviews": 3700,
+    "ratingAvg": 4.6,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "5 star", "count": 2380 },
+      { "name": "4 star", "count": 750 },
+      { "name": "3 star", "count": 300 },
+      { "name": "2 star", "count": 150 },
+      { "name": "1 star", "count": 120 }
     ]
   },
   {
@@ -316,47 +316,47 @@
     "ratingAvg": 4.9,
     "downloads": 5000000,
     "ratings": [
-      { "name": "1 star", "count": 250 },
-      { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 520 },
+      { "name": "5 star", "count": 6130 },
       { "name": "4 star", "count": 1300 },
-      { "name": "5 star", "count": 6130 }
+      { "name": "3 star", "count": 520 },
+      { "name": "2 star", "count": 300 },
+      { "name": "1 star", "count": 250 }
     ]
   },
   {
-    "image": "https://logos-world.net/wp-content/uploads/2021/04/Microsoft-Teams-Symbol.png",
-    "title": "Microsoft Teams",
-    "companyName": "Microsoft Corporation",
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968853.png",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
     "id": 19,
-    "description": "Microsoft Teams is a unified communication and collaboration platform that seamlessly integrates chat, video conferencing, file storage, and application integration. It is specifically designed to help organizations **host online meetings, collaborate effectively with teams, and manage projects** within the Microsoft ecosystem, enhancing workplace productivity for remote and hybrid teams.",
-    "size": 110,
-    "reviews": 4600,
-    "ratingAvg": 4.7,
-    "downloads": 2800000,
+    "description": "Netflix is a **streaming service** that offers movies, TV shows, documentaries, and original content on-demand. With a global catalog and personalized recommendations, Netflix delivers entertainment anytime and anywhere across multiple devices.",
+    "size": 140,
+    "reviews": 9200,
+    "ratingAvg": 4.8,
+    "downloads": 6000000,
     "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 220 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1900 }
+      { "name": "5 star", "count": 6200 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "3 star", "count": 800 },
+      { "name": "2 star", "count": 400 },
+      { "name": "1 star", "count": 300 }
     ]
   },
   {
-    "image": "https://cdn.logojoy.com/wp-content/uploads/20240607111107/LinkedIn-logo-2003-600x319.png",
-    "title": "LinkedIn",
-    "companyName": "LinkedIn Corporation",
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+    "title": "Microsoft Word",
+    "companyName": "Microsoft",
     "id": 20,
-    "description": "LinkedIn is the world's leading **professional networking platform**, focusing on career development and business connections. It allows users to **connect with colleagues, share professional updates, follow industry news, and find job opportunities**. It's an indispensable tool for building a professional brand, expanding your network, and advancing your career goals globally.",
-    "size": 85,
-    "reviews": 3700,
-    "ratingAvg": 4.6,
-    "downloads": 2100000,
+    "description": "Microsoft Word is a **word processing software** used for creating, editing, and formatting documents. It supports collaboration, templates, and integration with Microsoft 365, making it one of the most essential productivity tools worldwide.",
+    "size": 150,
+    "reviews": 7500,
+    "ratingAvg": 4.7,
+    "downloads": 4800000,
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 750 },
-      { "name": "5 star", "count": 2380 }
+      { "name": "5 star", "count": 4500 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "2 star", "count": 400 },
+      { "name": "1 star", "count": 200 }
     ]
   }
 ]

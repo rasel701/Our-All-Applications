@@ -3,6 +3,7 @@ import banner from "../../assets/assets/hero.png";
 import { FaDownload } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Banner = () => {
   return (
@@ -24,22 +25,28 @@ const Banner = () => {
           </p>
 
           <div className="flex justify-center gap-4 mt-6">
-            <button className="flex items-center gap-2 justify-center border-1 border-gray-400  px-4  rounded-lg bg-white transition">
+            <Link
+              to={"https://play.google.com/store/apps?hl=en_GB"}
+              className="flex items-center gap-2 justify-center border-1 border-gray-400  px-4  rounded-lg bg-white transition"
+            >
               <img
                 src="https://img.freepik.com/premium-vector/play-store-logo-vector-clip-art-icon-graphics-design-free-download_1302809-544.jpg?semt=ais_hybrid&w=740&q=80"
                 alt="Google Play"
                 className="w-15"
               />
               <span className="font-bold">Google Play</span>
-            </button>
-            <button className="flex items-center gap-2 border-1 border-gray-400  px-4  rounded-lg bg-white transition">
+            </Link>
+            <Link
+              to={"https://www.apple.com/app-store/"}
+              className="flex items-center gap-2 border-1 border-gray-400  px-4  rounded-lg bg-white transition"
+            >
               <img
                 src="https://img.freepik.com/premium-photo/iphone-app-store-icon-apple-app-store-icon_740533-135.jpg?semt=ais_hybrid&w=740&q=80"
                 alt="App Store"
                 className="w-15"
               />
               <span className="font-bold">App Store</span>
-            </button>
+            </Link>
           </div>
         </div>
 
