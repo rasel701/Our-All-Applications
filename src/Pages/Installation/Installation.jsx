@@ -75,13 +75,21 @@ const Installation = () => {
           </div>
 
           <div className="flex flex-col gap-4 mt-4 pb-4">
-            {sortedItem.map((data) => (
-              <InstallationApp
-                key={data.id}
-                data={data}
-                handleRemoveBtn={handleRemoveBtn}
-              />
-            ))}
+            {sortedItem.length === 0 ? (
+              <h2 className="text-3xl text-center mt-7 font-bold text-purple-600 overflow-hidden whitespace-nowrap border-r-4 border-purple-600 animate-typing">
+                No App Installed
+              </h2>
+            ) : (
+              <div className="flex flex-col gap-4 mt-4 pb-4">
+                {sortedItem.map((data) => (
+                  <InstallationApp
+                    key={data.id}
+                    data={data}
+                    handleRemoveBtn={handleRemoveBtn}
+                  />
+                ))}
+              </div>
+            )}
           </div>
         </div>
       )}

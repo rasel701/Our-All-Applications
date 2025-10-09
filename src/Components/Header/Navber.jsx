@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../assets/assets/logo.png";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { FaGithub } from "react-icons/fa";
 
 const Navber = () => {
@@ -81,9 +81,12 @@ const Navber = () => {
           <ul className="menu menu-horizontal px-1 flex gap-5">{links}</ul>
         </div>
         <div className="navbar-end">
-          <button className="flex items-center gap-2  p-3 rounded-lg text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
+          <Link
+            to={"https://github.com/rasel701"}
+            className="flex items-center gap-2  p-3 rounded-lg text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]"
+          >
             <FaGithub size={22} /> Contribute
-          </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ import axios from "axios";
 import Apps from "../Pages/Apps/Apps";
 import Details from "../Pages/Details/Details";
 import Installation from "../Pages/Installation/Installation";
+import ErrorPage from "../Components/ErrorPage/ErrorPage";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "/installation",
         Component: Installation,
+      },
+      {
+        path: "*",
+        Component: ErrorPage,
       },
     ],
   },

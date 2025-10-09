@@ -12,7 +12,9 @@ const Home = () => {
   return (
     <div>
       {loading ? (
-        <Loading />
+        <div className="my-30 max-h-screen">
+          <Loading />
+        </div>
       ) : (
         <div>
           <Banner />

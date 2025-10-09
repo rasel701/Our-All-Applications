@@ -30,7 +30,9 @@ const Apps = () => {
   return (
     <div className="mx-15">
       {loading ? (
-        <Loading />
+        <div className="my-30 max-h-screen">
+          <Loading />
+        </div>
       ) : (
         <div>
           <div className="mt-20 mb-10">
