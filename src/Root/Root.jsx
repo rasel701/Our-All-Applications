@@ -10,7 +10,7 @@ const Root = () => {
     <div className="bg-[#F5F5F5] min-h-screen  ">
       <AppContext>
         <Navber />
-        <div className="max-w-[90%] mx-auto">
+        <div className="">
           <Outlet />
           <ToastContainer />
         </div>

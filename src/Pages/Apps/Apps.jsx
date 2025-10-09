@@ -26,7 +26,7 @@ const Apps = () => {
   };
 
   return (
-    <div className="px-3">
+    <div className="px-3 ">
       {loading ? (
         <div className="my-30 max-h-screen">
           <Loading />
@@ -42,7 +42,7 @@ const Apps = () => {
               Millions
             </p>
           </div>
-          <div className="flex flex-col gap-5 md:flex-row lg:flex-row  justify-between items-center">
+          <div className="flex flex-col gap-5 md:flex-row lg:flex-row  justify-between items-center mx-auto max-w-[90%]">
             <h2 className="text-[24px]  font-bold">
               ({apps.length}) Apps Found
             </h2>

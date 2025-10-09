@@ -25,7 +25,7 @@ const Details = () => {
 
   if (!isData) {
     return (
-      <div className="flex justify-center items-center mt-7">
+      <div className="flex justify-center items-center mt-7 text-center p-2">
         <div className="flex flex-col justify-center items-center">
           <img src={appNotFound} alt="" />
           <div className="flex flex-col justify-center items-center">
@@ -60,13 +60,13 @@ const Details = () => {
   } = isData;
 
   return (
-    <div className=" my-20 pb-9">
+    <div className=" my-20 pb-9 mx-auto ">
       {loading ? (
         <div className="my-30 max-h-screen">
           <Loading />
         </div>
       ) : (
-        <div>
+        <div className="max-w-[90%] mx-auto">
           <div>
             <div className="flex  gap-3 lg:gap-9 md:gap-6 flex-col lg:flex-row justify-center items-center">
               <div className="bg-white p-3  w-[250px] h-[200px] lg:w-[400px] lg:h-[270px]">

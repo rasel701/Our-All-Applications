@@ -44,7 +44,7 @@ const Installation = () => {
           <Loading />
         </div>
       ) : (
-        <div>
+        <div className="max-w-[90%] mx-auto">
           <div>
             <h2 className="text-center text-[40px] font-bold">
               Your Installed Apps

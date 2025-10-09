@@ -5,7 +5,7 @@ import { useNavigate } from "react-router";
 const ErrorPage = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="text-center p-2">
       <div className="flex justify-center items-center mt-7">
         <div className="flex flex-col justify-center items-center">
           <img src={errorImage} alt="" />

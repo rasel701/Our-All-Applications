@@ -10,7 +10,7 @@ const Home = () => {
   const minimamEightData = apps.slice(0, 8);
 
   return (
-    <div>
+    <div className="">
       {loading ? (
         <div className="my-30 max-h-screen">
           <Loading />
@@ -18,7 +18,7 @@ const Home = () => {
       ) : (
         <div>
           <Banner />
-          <div className="mt-20 mb-10">
+          <div className="mt-20 mb-10 max-w-[90%] mx-auto">
             <h2 className="text-[48px] text-center">Trending Apps</h2>
             <p className="text-center text-[#627382]">
               Explore All Trending Apps on the Market developed by us{" "}
