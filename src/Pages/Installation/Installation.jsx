@@ -51,7 +51,7 @@ const Installation = () => {
               Explore All Trending Apps on the Market developed by us
             </p>
           </div>
-          <div className="flex justify-between items-center mt-10">
+          <div className="flex justify-between items-center mt-10 flex-col gap-2 lg:flex-row">
             <h2 className="text-2xl font-bold">
               {filtaringData.length} Apps Found
             </h2>

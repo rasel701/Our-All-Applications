@@ -1,8 +1,8 @@
 import React from "react";
 import banner from "../../assets/assets/hero.png";
-import downloads from "../../assets/assets/icon-downloads.png";
-import ratings from "../../assets/assets/icon-ratings.png";
-import revie from "../../assets/assets/icon-review.png";
+import { FaDownload } from "react-icons/fa";
+import { FaGooglePlay } from "react-icons/fa";
+import { FaRegStar } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -51,44 +51,52 @@ const Banner = () => {
           />
         </div>
 
-        {/* Bottom Section */}
-        <div className=" w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-15 text-white">
+        <div className="lg:min-w-[1520px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-15 text-white md:min-w-[900px] px-2">
           <h2 className="text-2xl md:text-4xl font-semibold mb-9">
             Trusted By Millions, Built For You
           </h2>
-          <div className="flex flex-col md:flex-row justify-center gap-10">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-10">
             <div>
               <p className="text-[16px] opacity-80 text-[#FFFFFF]">
                 Total Downloads
               </p>
-              <h3 className="text-6xl font-bold">29.6M</h3>
+              <h3 className="font-bold text-2xl lg:text-6xl md:text-6xl ">
+                29.6M
+              </h3>
               <p className="text-[16px] text-gray-200">
                 21% More Than Last Month
               </p>
             </div>
             <div>
-              <img src={downloads} alt="" />
+              <FaDownload size={50} />
             </div>
             <div>
               <p className="text-[16px] opacity-80 text-[#FFFFFF]">
                 Total Reviews
               </p>
-              <h3 className="text-6xl font-bold">906K</h3>
+              <h3 className="font-bold text-2xl lg:text-6xl md:text-6xl ">
+                906K
+              </h3>
               <p className="text-[16px] text-gray-200">
                 46% More Than Last Month
               </p>
             </div>
             <div>
-              <img src={ratings} alt="" />
+              <FaRegStar size={50} />
             </div>
             <div>
               <p className="text-[16px] opacity-80 text-[#FFFFFF]">
                 Active Apps
               </p>
-              <h3 className="text-6xl font-bold">132+</h3>
+              <h3 className="font-bold text-2xl lg:text-6xl md:text-6xl ">
+                132+
+              </h3>
               <p className="text-[16px] text-gray-200">
                 31 More Will Launch Soon
               </p>
+            </div>
+            <div>
+              <FaGooglePlay size={50} />
             </div>
           </div>
         </div>

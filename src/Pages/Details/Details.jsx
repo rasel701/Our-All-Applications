@@ -68,8 +68,8 @@ const Details = () => {
       ) : (
         <div>
           <div>
-            <div className="flex gap-9  ">
-              <div className="bg-white p-3  w-[400px] h-[290px]">
+            <div className="flex  gap-3 lg:gap-9 md:gap-6 flex-col lg:flex-row justify-center items-center">
+              <div className="bg-white p-3  w-[250px] h-[200px] lg:w-[400px] lg:h-[270px]">
                 <img
                   className=" w-full h-full object-contain"
                   src={image}
@@ -77,12 +77,12 @@ const Details = () => {
                 />
               </div>
               <div className=" w-full">
-                <h2 className="text-[32px]">{title}</h2>
+                <h2 className="text-[32px] font-bold">{title}</h2>
                 <h3>
                   Developed by <span>{companyName}</span>
                 </h3>
                 <div className="border-t-1 mt-5"></div>
-                <div className="flex  gap-11 mt-4">
+                <div className="flex justify-center items-center  gap-5 lg:gap-11 md:gap-11 mt-4 lg:justify-start">
                   <div className="">
                     <img src={download} alt="" />
                     <h3>Downloads</h3>

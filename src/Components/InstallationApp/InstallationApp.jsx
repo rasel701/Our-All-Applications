@@ -5,7 +5,7 @@ import rating from "../../assets/assets/icon-ratings.png";
 const InstallationApp = ({ data, handleRemoveBtn }) => {
   const { title, image, downloads, ratingAvg, size, id } = data;
   return (
-    <div className="flex justify-between items-center bg-white px-3 rounded-lg">
+    <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center bg-white px-3 rounded-lg">
       <div className="flex gap-5 items-center">
         <div>
           <img
@@ -29,7 +29,7 @@ const InstallationApp = ({ data, handleRemoveBtn }) => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="mb-1">
         <button
           onClick={() => handleRemoveBtn(id, title)}
           className="bg-[#00D390] px-4 py-3 rounded-lg text-white cursor-pointer"

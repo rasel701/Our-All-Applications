@@ -28,7 +28,7 @@ const Apps = () => {
   };
 
   return (
-    <div className="mx-15">
+    <div className="px-3">
       {loading ? (
         <div className="my-30 max-h-screen">
           <Loading />
@@ -36,15 +36,15 @@ const Apps = () => {
       ) : (
         <div>
           <div className="mt-20 mb-10">
-            <h2 className="text-[48px] text-center font-bold">
+            <h2 className="text-[38px] text-center font-bold md:text-[48px] lg:text-[48px]">
               Our All Applications
             </h2>
-            <p className="text-center text-[#627382]">
+            <p className="text-center text-[#627382] mt-4">
               Explore All Apps on the Market developed by us. We code for
               Millions
             </p>
           </div>
-          <div className="flex  justify-between items-center">
+          <div className="flex flex-col gap-5 md:flex-row lg:flex-row  justify-between items-center">
             <h2 className="text-[24px]  font-bold">
               ({apps.length}) Apps Found
             </h2>
