@@ -69,9 +69,12 @@ const Navber = () => {
           </div>
           <div className="flex items-center">
             <img className="w-[40px]" src={Logo} alt="" />
-            <a className="btn btn-ghost text-[17px] font-bold h-14 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+            <NavLink
+              to={"/"}
+              className="btn btn-ghost text-[17px] font-bold h-14 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
+            >
               HERO.IO
-            </a>
+            </NavLink>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">

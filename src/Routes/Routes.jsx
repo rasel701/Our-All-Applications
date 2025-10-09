@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
         loader: async () => await axios("/data.json"),
       },
       {
-        path: "/details/:id",
+        path: "apps/:id",
         Component: Details,
         loader: async () => await axios("/data.json"),
       },

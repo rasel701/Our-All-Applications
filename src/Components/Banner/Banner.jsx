@@ -24,19 +24,21 @@ const Banner = () => {
           </p>
 
           <div className="flex justify-center gap-4 mt-6">
-            <button className="flex items-center gap-2 border px-4 py-2 rounded-lg hover:bg-gray-100 transition">
+            <button className="flex items-center gap-2 justify-center border-1 border-gray-400  px-4  rounded-lg bg-white transition">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                src="https://img.freepik.com/premium-vector/play-store-logo-vector-clip-art-icon-graphics-design-free-download_1302809-544.jpg?semt=ais_hybrid&w=740&q=80"
                 alt="Google Play"
-                className="w-32"
+                className="w-15"
               />
+              <span className="font-bold">Google Play</span>
             </button>
-            <button className="flex items-center gap-2 border px-4 py-2 rounded-lg hover:bg-gray-100 transition">
+            <button className="flex items-center gap-2 border-1 border-gray-400  px-4  rounded-lg bg-white transition">
               <img
-                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                src="https://img.freepik.com/premium-photo/iphone-app-store-icon-apple-app-store-icon_740533-135.jpg?semt=ais_hybrid&w=740&q=80"
                 alt="App Store"
-                className="w-28"
+                className="w-15"
               />
+              <span className="font-bold">App Store</span>
             </button>
           </div>
         </div>

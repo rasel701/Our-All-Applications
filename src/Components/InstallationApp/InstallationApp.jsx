@@ -31,10 +31,10 @@ const InstallationApp = ({ data, handleRemoveBtn }) => {
       </div>
       <div>
         <button
-          onClick={() => handleRemoveBtn(id)}
+          onClick={() => handleRemoveBtn(id, title)}
           className="bg-[#00D390] px-4 py-3 rounded-lg text-white cursor-pointer"
         >
-          Remove
+          Uninstall
         </button>
       </div>
     </div>

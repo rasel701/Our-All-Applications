@@ -1,14 +1,14 @@
 import React from "react";
 import download from "../../assets/assets/icon-downloads.png";
 import rating from "../../assets/assets/icon-ratings.png";
-import { Link, useNavigate } from "react-router";
+import { Link, NavLink, useNavigate } from "react-router";
 
 const SingleApp = ({ data }) => {
   const { id, title, image, downloads, ratingAvg } = data;
-  const navigate = useNavigate();
+
   return (
     <Link
-      to={`/details/${id}`}
+      to={`/apps/${id}`}
       className="card bg-base-100 min-w-60 shadow-sm p-3"
     >
       <figure className="h-52">
