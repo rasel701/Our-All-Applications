@@ -5,7 +5,6 @@ import { FaGithub } from "react-icons/fa";
 const Navber = () => {
   const links = (
     <>
-      {" "}
       <NavLink
         to={"/"}
         className={({ isActive }) =>
@@ -14,9 +13,8 @@ const Navber = () => {
             : "text-[16px] font-semibold"
         }
       >
-        {" "}
-        Home{" "}
-      </NavLink>{" "}
+        Home
+      </NavLink>
       <NavLink
         to={"/apps"}
         className={({ isActive }) =>
@@ -25,9 +23,8 @@ const Navber = () => {
             : "text-[16px] font-semibold"
         }
       >
-        {" "}
-        Apps{" "}
-      </NavLink>{" "}
+        Apps
+      </NavLink>
       <NavLink
         to={"/installation"}
         className={({ isActive }) =>
@@ -36,9 +33,8 @@ const Navber = () => {
             : "text-[16px] font-semibold"
         }
       >
-        {" "}
-        Installation{" "}
-      </NavLink>{" "}
+        Installation
+      </NavLink>
     </>
   );
   return (
@@ -70,15 +66,15 @@ const Navber = () => {
               {links}
             </ul>
           </div>
-          <div className="flex items-center">
+          <Link className="flex items-center gap-2">
             <img className="w-[40px]" src={Logo} alt="" />
-            <NavLink
+            <button
               to={"/"}
-              className="btn btn-ghost text-[17px] font-bold h-14 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
+              className=" text-[17px] font-bold h-14 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
             >
               HERO.IO
-            </NavLink>
-          </div>
+            </button>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 flex gap-5">{links}</ul>{" "}

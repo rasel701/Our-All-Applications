@@ -10,5 +10,3 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </StrictMode>
 );
-
-// https://jolly-beignet-1ea3ab.netlify.app/
